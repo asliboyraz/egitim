@@ -1,9 +1,12 @@
+http://rogerdudler.github.io/git-guide/index.tr.html
+
 git add . 
 git add * 
 git add <dosyadi>
 
+Her proje için bir kere ilk baþta bu yapýlýr: 
 git remote add origin https://github.com/asliyazagan/egitim.git 
-
+git push -u origin master : ilk ayarlarla birlikte uzak depoya gönderilir.
 
 git config --global --user.name = "..."
 git config --global --user.email = "..."
@@ -18,3 +21,13 @@ git commit -m "teslim alindi"
 git rm --cached
 git log --oneline
 git log filename 
+git log since..until -put logids
+git log -n 3 : newest 3 commit 
+git branch
+git branch demobranch : creates
+git checkout demobranch
+
+git push -u origin demobranch : demobranch de yapýlan deðiþikliker push edilir.
+
+github içib ssh key almak?
+
